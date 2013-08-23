@@ -1,0 +1,27 @@
+@(loginForm: Form[(String,String)], createForm: Form[(String, String, String, String)])(implicit flash: Flash)
+
+@main("Welcome to Ribbit in Scala") {
+	@helper.form(routes.Application.authenticate) {
+		<input type="email" name="email" placeholder="Email" id="email" value='@loginForm("email").value'>
+		<input type="password" name="password" id="password" placeholder="Password">
+	}
+} {
+<div id="content">
+	<div class="wrapper">&nbsp
+		<img src='@routes.Assets.at("images/frog.jpg")'>
+		<div class="panel right">
+			<h1>New to Ribbit?</h1>
+			@helper.form(routes.Application.createAccount) {
+				<input type="text" name="name" placeholder="Full Name" id="name" value='@createForm("name").value'>
+				<input type="email" name="email" placeholder="Email" id="email" value='@createForm("email").value'>
+				<input type="password" name="password" id="password" placeholder="Password">
+				<input type="password" name="confirm" id="password2" placeholder="Confirm Password">
+				<input type="submit" value="Create Account">
+			}
+		</div>
+	</div>
+
+</div>
+}
+
+

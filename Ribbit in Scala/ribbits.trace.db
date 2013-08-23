@@ -1,0 +1,63 @@
+07-14 19:00:24 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+select x2."EMAIL", x2."PASSWORD", x2."NAME" from "USERS" x2 where     lcase(x2."EMAIL")  = 'john.doe@gmail.com' [42102-168]
+07-14 19:00:48 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" not found; SQL statement:
+select x2."CONTENT", x2."SENDER", x2."DATETIME" from "RIBBITS" x2 [42102-168]
+07-14 19:08:28 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:08:35 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:08:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:08:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:09:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:09:21 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:09:22 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:10:38 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:10:39 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:10:40 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:11 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:14 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:15 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:17 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:39 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:39 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:51 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]
+07-14 19:15:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "RIBBITS" already exists; SQL statement:
+create table "RIBBITS" ("CONTENT" VARCHAR NOT NULL,"SENDER" VARCHAR NOT NULL,"DATETIME" VARCHAR NOT NULL PRIMARY KEY) [42101-168]

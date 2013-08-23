@@ -1,0 +1,37 @@
+@(title: String)(user: Account)(createForm: Form[String])(ribbits: Seq[(String,String,String,String)])
+
+@main("Public Tweets") {
+<a id='btnLogOut' href="@routes.Application.logout" class="logout">logout</a>
+} {
+
+<div id="content">
+	<div class="wrapper">&nbsp
+		<div class="panel right">
+			<h1>Create a Ribbit</h1>
+			<p>
+				@helper.form(routes.Ribbits.createRibbit) {
+				<textarea type="text" name="ribbit" placeholder="Your Ribbit here..." id="ribbit" class="ribbitText" value='@createForm("name").value' ></textarea>
+				<input type="submit" value="Ribbit!">
+				}
+
+			</p>
+		</div>
+		<div id="ribbits" class="panel left">
+			<h1>Public Ribbits</h1>
+
+			@ribbits.map { ribbit =>
+
+			<div class="ribbitWrapper">
+				<img class="avatar" src='@routes.Assets.at("images/user1.png")'>
+				<span class="name">@ribbit._4</span> @ribbit._2 <span class="time">@ribbit._3</span>
+				<p>
+					@ribbit._1
+				</p>
+			</div>
+
+			}
+
+		</div>
+	</div>
+</div>
+}
